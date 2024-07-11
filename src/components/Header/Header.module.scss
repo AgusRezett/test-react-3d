@@ -1,0 +1,21 @@
+.header {
+	background: #333;
+	color: #fff;
+	padding: 20px 0;
+
+	.logo {
+		max-width: 150px;
+		border-radius: 100%;
+	}
+
+	.navList {
+		list-style: none;
+		display: flex;
+		gap: 20px;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
